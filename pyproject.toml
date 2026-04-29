@@ -14,7 +14,7 @@ dependencies = [
     "joblib",
     "tensorflow",
     "dagster",
-    "dagster-webserver",
+    "dagster-webserver"
 ]
 [tool.dagster]
 module_name = "dagster_project.definitions"
