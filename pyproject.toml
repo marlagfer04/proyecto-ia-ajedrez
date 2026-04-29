@@ -1,0 +1,21 @@
+[project]
+name = "ajedrez"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "joblib",
+    "tensorflow",
+    "dagster",
+    "dagster-webserver",
+]
+[tool.dagster]
+module_name = "dagster_project.definitions"
+code_location_name = "ajedrez"
